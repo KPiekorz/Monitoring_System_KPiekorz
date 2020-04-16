@@ -4,7 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/CLion_Workspace/Monitoring_System_KPiekorz/main.cpp" "E:/CLion_Workspace/Monitoring_System_KPiekorz/cmake-build-debug/CMakeFiles/Monitoring_System_KPiekorz.dir/main.cpp.obj"
+  "E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/Alarm.cpp" "E:/CLion_Workspace/Monitoring_System_KPiekorz/cmake-build-debug/CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Alarm.cpp.obj"
+  "E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/Packet.cpp" "E:/CLion_Workspace/Monitoring_System_KPiekorz/cmake-build-debug/CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Packet.cpp.obj"
+  "E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/Sequence.cpp" "E:/CLion_Workspace/Monitoring_System_KPiekorz/cmake-build-debug/CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Sequence.cpp.obj"
+  "E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/Spectrum.cpp" "E:/CLion_Workspace/Monitoring_System_KPiekorz/cmake-build-debug/CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Spectrum.cpp.obj"
+  "E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/TimeHistory.cpp" "E:/CLion_Workspace/Monitoring_System_KPiekorz/cmake-build-debug/CMakeFiles/Monitoring_System_KPiekorz.dir/scr/TimeHistory.cpp.obj"
+  "E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/main.cpp" "E:/CLion_Workspace/Monitoring_System_KPiekorz/cmake-build-debug/CMakeFiles/Monitoring_System_KPiekorz.dir/scr/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

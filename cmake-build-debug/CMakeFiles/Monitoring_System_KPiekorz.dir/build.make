@@ -56,32 +56,107 @@ include CMakeFiles/Monitoring_System_KPiekorz.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Monitoring_System_KPiekorz.dir/flags.make
 
-CMakeFiles/Monitoring_System_KPiekorz.dir/main.cpp.obj: CMakeFiles/Monitoring_System_KPiekorz.dir/flags.make
-CMakeFiles/Monitoring_System_KPiekorz.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\CLion_Workspace\Monitoring_System_KPiekorz\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Monitoring_System_KPiekorz.dir/main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Monitoring_System_KPiekorz.dir\main.cpp.obj -c E:\CLion_Workspace\Monitoring_System_KPiekorz\main.cpp
+CMakeFiles/Monitoring_System_KPiekorz.dir/scr/main.cpp.obj: CMakeFiles/Monitoring_System_KPiekorz.dir/flags.make
+CMakeFiles/Monitoring_System_KPiekorz.dir/scr/main.cpp.obj: ../scr/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\CLion_Workspace\Monitoring_System_KPiekorz\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Monitoring_System_KPiekorz.dir/scr/main.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Monitoring_System_KPiekorz.dir\scr\main.cpp.obj -c E:\CLion_Workspace\Monitoring_System_KPiekorz\scr\main.cpp
 
-CMakeFiles/Monitoring_System_KPiekorz.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Monitoring_System_KPiekorz.dir/main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\CLion_Workspace\Monitoring_System_KPiekorz\main.cpp > CMakeFiles\Monitoring_System_KPiekorz.dir\main.cpp.i
+CMakeFiles/Monitoring_System_KPiekorz.dir/scr/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Monitoring_System_KPiekorz.dir/scr/main.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\CLion_Workspace\Monitoring_System_KPiekorz\scr\main.cpp > CMakeFiles\Monitoring_System_KPiekorz.dir\scr\main.cpp.i
 
-CMakeFiles/Monitoring_System_KPiekorz.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Monitoring_System_KPiekorz.dir/main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\CLion_Workspace\Monitoring_System_KPiekorz\main.cpp -o CMakeFiles\Monitoring_System_KPiekorz.dir\main.cpp.s
+CMakeFiles/Monitoring_System_KPiekorz.dir/scr/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Monitoring_System_KPiekorz.dir/scr/main.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\CLion_Workspace\Monitoring_System_KPiekorz\scr\main.cpp -o CMakeFiles\Monitoring_System_KPiekorz.dir\scr\main.cpp.s
+
+CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Packet.cpp.obj: CMakeFiles/Monitoring_System_KPiekorz.dir/flags.make
+CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Packet.cpp.obj: ../scr/Packet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\CLion_Workspace\Monitoring_System_KPiekorz\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Packet.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Monitoring_System_KPiekorz.dir\scr\Packet.cpp.obj -c E:\CLion_Workspace\Monitoring_System_KPiekorz\scr\Packet.cpp
+
+CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Packet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Packet.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\CLion_Workspace\Monitoring_System_KPiekorz\scr\Packet.cpp > CMakeFiles\Monitoring_System_KPiekorz.dir\scr\Packet.cpp.i
+
+CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Packet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Packet.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\CLion_Workspace\Monitoring_System_KPiekorz\scr\Packet.cpp -o CMakeFiles\Monitoring_System_KPiekorz.dir\scr\Packet.cpp.s
+
+CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Sequence.cpp.obj: CMakeFiles/Monitoring_System_KPiekorz.dir/flags.make
+CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Sequence.cpp.obj: ../scr/Sequence.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\CLion_Workspace\Monitoring_System_KPiekorz\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Sequence.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Monitoring_System_KPiekorz.dir\scr\Sequence.cpp.obj -c E:\CLion_Workspace\Monitoring_System_KPiekorz\scr\Sequence.cpp
+
+CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Sequence.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Sequence.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\CLion_Workspace\Monitoring_System_KPiekorz\scr\Sequence.cpp > CMakeFiles\Monitoring_System_KPiekorz.dir\scr\Sequence.cpp.i
+
+CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Sequence.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Sequence.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\CLion_Workspace\Monitoring_System_KPiekorz\scr\Sequence.cpp -o CMakeFiles\Monitoring_System_KPiekorz.dir\scr\Sequence.cpp.s
+
+CMakeFiles/Monitoring_System_KPiekorz.dir/scr/TimeHistory.cpp.obj: CMakeFiles/Monitoring_System_KPiekorz.dir/flags.make
+CMakeFiles/Monitoring_System_KPiekorz.dir/scr/TimeHistory.cpp.obj: ../scr/TimeHistory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\CLion_Workspace\Monitoring_System_KPiekorz\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Monitoring_System_KPiekorz.dir/scr/TimeHistory.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Monitoring_System_KPiekorz.dir\scr\TimeHistory.cpp.obj -c E:\CLion_Workspace\Monitoring_System_KPiekorz\scr\TimeHistory.cpp
+
+CMakeFiles/Monitoring_System_KPiekorz.dir/scr/TimeHistory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Monitoring_System_KPiekorz.dir/scr/TimeHistory.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\CLion_Workspace\Monitoring_System_KPiekorz\scr\TimeHistory.cpp > CMakeFiles\Monitoring_System_KPiekorz.dir\scr\TimeHistory.cpp.i
+
+CMakeFiles/Monitoring_System_KPiekorz.dir/scr/TimeHistory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Monitoring_System_KPiekorz.dir/scr/TimeHistory.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\CLion_Workspace\Monitoring_System_KPiekorz\scr\TimeHistory.cpp -o CMakeFiles\Monitoring_System_KPiekorz.dir\scr\TimeHistory.cpp.s
+
+CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Spectrum.cpp.obj: CMakeFiles/Monitoring_System_KPiekorz.dir/flags.make
+CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Spectrum.cpp.obj: ../scr/Spectrum.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\CLion_Workspace\Monitoring_System_KPiekorz\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Spectrum.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Monitoring_System_KPiekorz.dir\scr\Spectrum.cpp.obj -c E:\CLion_Workspace\Monitoring_System_KPiekorz\scr\Spectrum.cpp
+
+CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Spectrum.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Spectrum.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\CLion_Workspace\Monitoring_System_KPiekorz\scr\Spectrum.cpp > CMakeFiles\Monitoring_System_KPiekorz.dir\scr\Spectrum.cpp.i
+
+CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Spectrum.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Spectrum.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\CLion_Workspace\Monitoring_System_KPiekorz\scr\Spectrum.cpp -o CMakeFiles\Monitoring_System_KPiekorz.dir\scr\Spectrum.cpp.s
+
+CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Alarm.cpp.obj: CMakeFiles/Monitoring_System_KPiekorz.dir/flags.make
+CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Alarm.cpp.obj: ../scr/Alarm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\CLion_Workspace\Monitoring_System_KPiekorz\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Alarm.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Monitoring_System_KPiekorz.dir\scr\Alarm.cpp.obj -c E:\CLion_Workspace\Monitoring_System_KPiekorz\scr\Alarm.cpp
+
+CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Alarm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Alarm.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\CLion_Workspace\Monitoring_System_KPiekorz\scr\Alarm.cpp > CMakeFiles\Monitoring_System_KPiekorz.dir\scr\Alarm.cpp.i
+
+CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Alarm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Alarm.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\CLion_Workspace\Monitoring_System_KPiekorz\scr\Alarm.cpp -o CMakeFiles\Monitoring_System_KPiekorz.dir\scr\Alarm.cpp.s
 
 # Object files for target Monitoring_System_KPiekorz
 Monitoring_System_KPiekorz_OBJECTS = \
-"CMakeFiles/Monitoring_System_KPiekorz.dir/main.cpp.obj"
+"CMakeFiles/Monitoring_System_KPiekorz.dir/scr/main.cpp.obj" \
+"CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Packet.cpp.obj" \
+"CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Sequence.cpp.obj" \
+"CMakeFiles/Monitoring_System_KPiekorz.dir/scr/TimeHistory.cpp.obj" \
+"CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Spectrum.cpp.obj" \
+"CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Alarm.cpp.obj"
 
 # External object files for target Monitoring_System_KPiekorz
 Monitoring_System_KPiekorz_EXTERNAL_OBJECTS =
 
-Monitoring_System_KPiekorz.exe: CMakeFiles/Monitoring_System_KPiekorz.dir/main.cpp.obj
+Monitoring_System_KPiekorz.exe: CMakeFiles/Monitoring_System_KPiekorz.dir/scr/main.cpp.obj
+Monitoring_System_KPiekorz.exe: CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Packet.cpp.obj
+Monitoring_System_KPiekorz.exe: CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Sequence.cpp.obj
+Monitoring_System_KPiekorz.exe: CMakeFiles/Monitoring_System_KPiekorz.dir/scr/TimeHistory.cpp.obj
+Monitoring_System_KPiekorz.exe: CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Spectrum.cpp.obj
+Monitoring_System_KPiekorz.exe: CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Alarm.cpp.obj
 Monitoring_System_KPiekorz.exe: CMakeFiles/Monitoring_System_KPiekorz.dir/build.make
 Monitoring_System_KPiekorz.exe: CMakeFiles/Monitoring_System_KPiekorz.dir/linklibs.rsp
 Monitoring_System_KPiekorz.exe: CMakeFiles/Monitoring_System_KPiekorz.dir/objects1.rsp
 Monitoring_System_KPiekorz.exe: CMakeFiles/Monitoring_System_KPiekorz.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\CLion_Workspace\Monitoring_System_KPiekorz\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Monitoring_System_KPiekorz.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\CLion_Workspace\Monitoring_System_KPiekorz\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Monitoring_System_KPiekorz.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Monitoring_System_KPiekorz.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

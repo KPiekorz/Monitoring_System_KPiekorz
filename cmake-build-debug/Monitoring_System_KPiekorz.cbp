@@ -80,7 +80,37 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/CLion_Workspace/Monitoring_System_KPiekorz/main.cpp">
+		<Unit filename="E:/CLion_Workspace/Monitoring_System_KPiekorz/inc/Alarm.h">
+			<Option target="Monitoring_System_KPiekorz"/>
+		</Unit>
+		<Unit filename="E:/CLion_Workspace/Monitoring_System_KPiekorz/inc/Packet.h">
+			<Option target="Monitoring_System_KPiekorz"/>
+		</Unit>
+		<Unit filename="E:/CLion_Workspace/Monitoring_System_KPiekorz/inc/Sequence.h">
+			<Option target="Monitoring_System_KPiekorz"/>
+		</Unit>
+		<Unit filename="E:/CLion_Workspace/Monitoring_System_KPiekorz/inc/Spectrum.h">
+			<Option target="Monitoring_System_KPiekorz"/>
+		</Unit>
+		<Unit filename="E:/CLion_Workspace/Monitoring_System_KPiekorz/inc/TimeHistory.h">
+			<Option target="Monitoring_System_KPiekorz"/>
+		</Unit>
+		<Unit filename="E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/Alarm.cpp">
+			<Option target="Monitoring_System_KPiekorz"/>
+		</Unit>
+		<Unit filename="E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/Packet.cpp">
+			<Option target="Monitoring_System_KPiekorz"/>
+		</Unit>
+		<Unit filename="E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/Sequence.cpp">
+			<Option target="Monitoring_System_KPiekorz"/>
+		</Unit>
+		<Unit filename="E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/Spectrum.cpp">
+			<Option target="Monitoring_System_KPiekorz"/>
+		</Unit>
+		<Unit filename="E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/TimeHistory.cpp">
+			<Option target="Monitoring_System_KPiekorz"/>
+		</Unit>
+		<Unit filename="E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/main.cpp">
 			<Option target="Monitoring_System_KPiekorz"/>
 		</Unit>
 		<Unit filename="E:/CLion_Workspace/Monitoring_System_KPiekorz/CMakeLists.txt">

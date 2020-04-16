@@ -122,32 +122,167 @@ Monitoring_System_KPiekorz/fast:
 	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/build
 .PHONY : Monitoring_System_KPiekorz/fast
 
-main.obj: main.cpp.obj
+scr/Alarm.obj: scr/Alarm.cpp.obj
 
-.PHONY : main.obj
+.PHONY : scr/Alarm.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+scr/Alarm.cpp.obj:
+	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Alarm.cpp.obj
+.PHONY : scr/Alarm.cpp.obj
 
-main.i: main.cpp.i
+scr/Alarm.i: scr/Alarm.cpp.i
 
-.PHONY : main.i
+.PHONY : scr/Alarm.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/main.cpp.i
-.PHONY : main.cpp.i
+scr/Alarm.cpp.i:
+	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Alarm.cpp.i
+.PHONY : scr/Alarm.cpp.i
 
-main.s: main.cpp.s
+scr/Alarm.s: scr/Alarm.cpp.s
 
-.PHONY : main.s
+.PHONY : scr/Alarm.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/main.cpp.s
-.PHONY : main.cpp.s
+scr/Alarm.cpp.s:
+	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Alarm.cpp.s
+.PHONY : scr/Alarm.cpp.s
+
+scr/Packet.obj: scr/Packet.cpp.obj
+
+.PHONY : scr/Packet.obj
+
+# target to build an object file
+scr/Packet.cpp.obj:
+	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Packet.cpp.obj
+.PHONY : scr/Packet.cpp.obj
+
+scr/Packet.i: scr/Packet.cpp.i
+
+.PHONY : scr/Packet.i
+
+# target to preprocess a source file
+scr/Packet.cpp.i:
+	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Packet.cpp.i
+.PHONY : scr/Packet.cpp.i
+
+scr/Packet.s: scr/Packet.cpp.s
+
+.PHONY : scr/Packet.s
+
+# target to generate assembly for a file
+scr/Packet.cpp.s:
+	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Packet.cpp.s
+.PHONY : scr/Packet.cpp.s
+
+scr/Sequence.obj: scr/Sequence.cpp.obj
+
+.PHONY : scr/Sequence.obj
+
+# target to build an object file
+scr/Sequence.cpp.obj:
+	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Sequence.cpp.obj
+.PHONY : scr/Sequence.cpp.obj
+
+scr/Sequence.i: scr/Sequence.cpp.i
+
+.PHONY : scr/Sequence.i
+
+# target to preprocess a source file
+scr/Sequence.cpp.i:
+	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Sequence.cpp.i
+.PHONY : scr/Sequence.cpp.i
+
+scr/Sequence.s: scr/Sequence.cpp.s
+
+.PHONY : scr/Sequence.s
+
+# target to generate assembly for a file
+scr/Sequence.cpp.s:
+	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Sequence.cpp.s
+.PHONY : scr/Sequence.cpp.s
+
+scr/Spectrum.obj: scr/Spectrum.cpp.obj
+
+.PHONY : scr/Spectrum.obj
+
+# target to build an object file
+scr/Spectrum.cpp.obj:
+	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Spectrum.cpp.obj
+.PHONY : scr/Spectrum.cpp.obj
+
+scr/Spectrum.i: scr/Spectrum.cpp.i
+
+.PHONY : scr/Spectrum.i
+
+# target to preprocess a source file
+scr/Spectrum.cpp.i:
+	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Spectrum.cpp.i
+.PHONY : scr/Spectrum.cpp.i
+
+scr/Spectrum.s: scr/Spectrum.cpp.s
+
+.PHONY : scr/Spectrum.s
+
+# target to generate assembly for a file
+scr/Spectrum.cpp.s:
+	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Spectrum.cpp.s
+.PHONY : scr/Spectrum.cpp.s
+
+scr/TimeHistory.obj: scr/TimeHistory.cpp.obj
+
+.PHONY : scr/TimeHistory.obj
+
+# target to build an object file
+scr/TimeHistory.cpp.obj:
+	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/TimeHistory.cpp.obj
+.PHONY : scr/TimeHistory.cpp.obj
+
+scr/TimeHistory.i: scr/TimeHistory.cpp.i
+
+.PHONY : scr/TimeHistory.i
+
+# target to preprocess a source file
+scr/TimeHistory.cpp.i:
+	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/TimeHistory.cpp.i
+.PHONY : scr/TimeHistory.cpp.i
+
+scr/TimeHistory.s: scr/TimeHistory.cpp.s
+
+.PHONY : scr/TimeHistory.s
+
+# target to generate assembly for a file
+scr/TimeHistory.cpp.s:
+	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/TimeHistory.cpp.s
+.PHONY : scr/TimeHistory.cpp.s
+
+scr/main.obj: scr/main.cpp.obj
+
+.PHONY : scr/main.obj
+
+# target to build an object file
+scr/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/main.cpp.obj
+.PHONY : scr/main.cpp.obj
+
+scr/main.i: scr/main.cpp.i
+
+.PHONY : scr/main.i
+
+# target to preprocess a source file
+scr/main.cpp.i:
+	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/main.cpp.i
+.PHONY : scr/main.cpp.i
+
+scr/main.s: scr/main.cpp.s
+
+.PHONY : scr/main.s
+
+# target to generate assembly for a file
+scr/main.cpp.s:
+	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/main.cpp.s
+.PHONY : scr/main.cpp.s
 
 # Help Target
 help:
@@ -158,9 +293,24 @@ help:
 	@echo ... Monitoring_System_KPiekorz
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... scr/Alarm.obj
+	@echo ... scr/Alarm.i
+	@echo ... scr/Alarm.s
+	@echo ... scr/Packet.obj
+	@echo ... scr/Packet.i
+	@echo ... scr/Packet.s
+	@echo ... scr/Sequence.obj
+	@echo ... scr/Sequence.i
+	@echo ... scr/Sequence.s
+	@echo ... scr/Spectrum.obj
+	@echo ... scr/Spectrum.i
+	@echo ... scr/Spectrum.s
+	@echo ... scr/TimeHistory.obj
+	@echo ... scr/TimeHistory.i
+	@echo ... scr/TimeHistory.s
+	@echo ... scr/main.obj
+	@echo ... scr/main.i
+	@echo ... scr/main.s
 .PHONY : help
 
 
