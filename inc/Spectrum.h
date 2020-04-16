@@ -7,9 +7,26 @@
 
 #include "Sequence.h"
 
-class Spectrum {
+enum {
+    lin,
+    log
+};
 
-    
+class Spectrum : protected Sequence {
+
+private:
+    int scaling;
+
+
+protected:
+
+
+
+public:
+    Spectrum() : scaling(0) {}
+
+    string toString();
+
 
 };
 
