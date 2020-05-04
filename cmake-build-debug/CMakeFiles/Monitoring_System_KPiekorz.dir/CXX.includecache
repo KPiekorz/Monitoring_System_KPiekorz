@@ -25,6 +25,8 @@ vector
 E:/CLion_Workspace/Monitoring_System_KPiekorz/inc/Spectrum.h
 Sequence.h
 E:/CLion_Workspace/Monitoring_System_KPiekorz/inc/Sequence.h
+../scr/Spectrum.tpp
+E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/Spectrum.tpp
 
 E:/CLion_Workspace/Monitoring_System_KPiekorz/inc/TimeHistory.h
 Sequence.h
@@ -32,6 +34,18 @@ E:/CLion_Workspace/Monitoring_System_KPiekorz/inc/Sequence.h
 iostream
 -
 string
+-
+../scr/TimeHistory.tpp
+E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/TimeHistory.tpp
+
+E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/Spectrum.tpp
+../inc/Spectrum.h
+E:/CLion_Workspace/Monitoring_System_KPiekorz/inc/Spectrum.h
+
+E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/TimeHistory.tpp
+../inc/TimeHistory.h
+E:/CLion_Workspace/Monitoring_System_KPiekorz/inc/TimeHistory.h
+vector
 -
 
 E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/main.cpp

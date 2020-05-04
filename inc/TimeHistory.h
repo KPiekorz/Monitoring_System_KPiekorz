@@ -11,8 +11,8 @@
 
 using namespace std;
 
-
-class TimeHistory : protected Sequence{
+template <class T>
+class TimeHistory : protected Sequence<T>{
 
 private:
     double sensitivity;
@@ -27,5 +27,6 @@ public:
 
 };
 
+#include "../scr/TimeHistory.tpp"
 
 #endif //MONITORING_SYSTEM_KPIEKORZ_TIMEHISTORY_H

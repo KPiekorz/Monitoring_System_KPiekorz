@@ -12,20 +12,12 @@ CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Sequence.cpp.obj
  E:/CLion_Workspace/Monitoring_System_KPiekorz/inc/Packet.h
  E:/CLion_Workspace/Monitoring_System_KPiekorz/inc/Sequence.h
  E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/Sequence.cpp
-CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Spectrum.cpp.obj
- E:/CLion_Workspace/Monitoring_System_KPiekorz/inc/Packet.h
- E:/CLion_Workspace/Monitoring_System_KPiekorz/inc/Sequence.h
- E:/CLion_Workspace/Monitoring_System_KPiekorz/inc/Spectrum.h
- E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/Spectrum.cpp
-CMakeFiles/Monitoring_System_KPiekorz.dir/scr/TimeHistory.cpp.obj
- E:/CLion_Workspace/Monitoring_System_KPiekorz/inc/Packet.h
- E:/CLion_Workspace/Monitoring_System_KPiekorz/inc/Sequence.h
- E:/CLion_Workspace/Monitoring_System_KPiekorz/inc/TimeHistory.h
- E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/TimeHistory.cpp
 CMakeFiles/Monitoring_System_KPiekorz.dir/scr/main.cpp.obj
  E:/CLion_Workspace/Monitoring_System_KPiekorz/inc/Alarm.h
  E:/CLion_Workspace/Monitoring_System_KPiekorz/inc/Packet.h
  E:/CLion_Workspace/Monitoring_System_KPiekorz/inc/Sequence.h
  E:/CLion_Workspace/Monitoring_System_KPiekorz/inc/Spectrum.h
  E:/CLion_Workspace/Monitoring_System_KPiekorz/inc/TimeHistory.h
+ E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/Spectrum.tpp
+ E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/TimeHistory.tpp
  E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/main.cpp

@@ -104,10 +104,10 @@
 		<Unit filename="E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/Sequence.cpp">
 			<Option target="Monitoring_System_KPiekorz"/>
 		</Unit>
-		<Unit filename="E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/Spectrum.cpp">
+		<Unit filename="E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/Spectrum.tpp">
 			<Option target="Monitoring_System_KPiekorz"/>
 		</Unit>
-		<Unit filename="E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/TimeHistory.cpp">
+		<Unit filename="E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/TimeHistory.tpp">
 			<Option target="Monitoring_System_KPiekorz"/>
 		</Unit>
 		<Unit filename="E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/main.cpp">

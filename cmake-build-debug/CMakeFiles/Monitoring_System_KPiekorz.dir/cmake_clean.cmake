@@ -2,8 +2,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Alarm.cpp.obj"
   "CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Packet.cpp.obj"
   "CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Sequence.cpp.obj"
-  "CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Spectrum.cpp.obj"
-  "CMakeFiles/Monitoring_System_KPiekorz.dir/scr/TimeHistory.cpp.obj"
   "CMakeFiles/Monitoring_System_KPiekorz.dir/scr/main.cpp.obj"
   "Monitoring_System_KPiekorz.exe"
   "Monitoring_System_KPiekorz.exe.manifest"

@@ -7,10 +7,10 @@ using namespace std;
 
 int main() {
 
-    TimeHistory time;
-    cout << time.toString() << endl;
+//    TimeHistory <int> time;
+//    cout << time.toString() << endl;
 
-    Spectrum spec;
+    Spectrum <int> spec;
     cout << spec.toString() << endl;
 
     Alarm ala;

@@ -203,60 +203,6 @@ scr/Sequence.cpp.s:
 	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Sequence.cpp.s
 .PHONY : scr/Sequence.cpp.s
 
-scr/Spectrum.obj: scr/Spectrum.cpp.obj
-
-.PHONY : scr/Spectrum.obj
-
-# target to build an object file
-scr/Spectrum.cpp.obj:
-	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Spectrum.cpp.obj
-.PHONY : scr/Spectrum.cpp.obj
-
-scr/Spectrum.i: scr/Spectrum.cpp.i
-
-.PHONY : scr/Spectrum.i
-
-# target to preprocess a source file
-scr/Spectrum.cpp.i:
-	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Spectrum.cpp.i
-.PHONY : scr/Spectrum.cpp.i
-
-scr/Spectrum.s: scr/Spectrum.cpp.s
-
-.PHONY : scr/Spectrum.s
-
-# target to generate assembly for a file
-scr/Spectrum.cpp.s:
-	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Spectrum.cpp.s
-.PHONY : scr/Spectrum.cpp.s
-
-scr/TimeHistory.obj: scr/TimeHistory.cpp.obj
-
-.PHONY : scr/TimeHistory.obj
-
-# target to build an object file
-scr/TimeHistory.cpp.obj:
-	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/TimeHistory.cpp.obj
-.PHONY : scr/TimeHistory.cpp.obj
-
-scr/TimeHistory.i: scr/TimeHistory.cpp.i
-
-.PHONY : scr/TimeHistory.i
-
-# target to preprocess a source file
-scr/TimeHistory.cpp.i:
-	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/TimeHistory.cpp.i
-.PHONY : scr/TimeHistory.cpp.i
-
-scr/TimeHistory.s: scr/TimeHistory.cpp.s
-
-.PHONY : scr/TimeHistory.s
-
-# target to generate assembly for a file
-scr/TimeHistory.cpp.s:
-	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/TimeHistory.cpp.s
-.PHONY : scr/TimeHistory.cpp.s
-
 scr/main.obj: scr/main.cpp.obj
 
 .PHONY : scr/main.obj
@@ -302,12 +248,6 @@ help:
 	@echo ... scr/Sequence.obj
 	@echo ... scr/Sequence.i
 	@echo ... scr/Sequence.s
-	@echo ... scr/Spectrum.obj
-	@echo ... scr/Spectrum.i
-	@echo ... scr/Spectrum.s
-	@echo ... scr/TimeHistory.obj
-	@echo ... scr/TimeHistory.i
-	@echo ... scr/TimeHistory.s
 	@echo ... scr/main.obj
 	@echo ... scr/main.i
 	@echo ... scr/main.s

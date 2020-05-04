@@ -7,12 +7,13 @@
 
 #include "Sequence.h"
 
-enum {
+enum Scaling_type{
     lin,
     log
 };
 
-class Spectrum : protected Sequence {
+template <class T>
+class Spectrum : protected Sequence<T> {
 
 private:
     int scaling;
@@ -28,7 +29,12 @@ public:
     string toString();
 
 
+
+
 };
 
+
+
+#include "../scr/Spectrum.tpp"
 
 #endif //MONITORING_SYSTEM_KPIEKORZ_SPECTRUM_H

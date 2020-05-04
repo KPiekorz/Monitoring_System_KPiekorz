@@ -11,8 +11,7 @@
 
 using namespace std;
 
-typedef int buffer_type;
-
+template <class T>
 class Sequence : protected Packet{
 
 private:
@@ -22,11 +21,16 @@ protected:
     int channelNr;
     string unit;
     double resolution;
-    vector < buffer_type > buffer;
+    vector <T> buffer;
 
 public:
     Sequence(): channelNr(0), unit("empty"), resolution(0){
         buffer.clear();
+    }
+
+    Sequence(int ch, string u, double res, vector<T> buf): channelNr(ch), resolution(res){
+        unit.assign(u);
+        buffer.assign(buf);
     }
 
 };
