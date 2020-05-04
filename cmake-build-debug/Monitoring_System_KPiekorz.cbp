@@ -101,7 +101,7 @@
 		<Unit filename="E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/Packet.cpp">
 			<Option target="Monitoring_System_KPiekorz"/>
 		</Unit>
-		<Unit filename="E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/Sequence.cpp">
+		<Unit filename="E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/Sequence.tpp">
 			<Option target="Monitoring_System_KPiekorz"/>
 		</Unit>
 		<Unit filename="E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/Spectrum.tpp">

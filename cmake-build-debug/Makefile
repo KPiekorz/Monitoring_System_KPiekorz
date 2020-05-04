@@ -176,33 +176,6 @@ scr/Packet.cpp.s:
 	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Packet.cpp.s
 .PHONY : scr/Packet.cpp.s
 
-scr/Sequence.obj: scr/Sequence.cpp.obj
-
-.PHONY : scr/Sequence.obj
-
-# target to build an object file
-scr/Sequence.cpp.obj:
-	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Sequence.cpp.obj
-.PHONY : scr/Sequence.cpp.obj
-
-scr/Sequence.i: scr/Sequence.cpp.i
-
-.PHONY : scr/Sequence.i
-
-# target to preprocess a source file
-scr/Sequence.cpp.i:
-	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Sequence.cpp.i
-.PHONY : scr/Sequence.cpp.i
-
-scr/Sequence.s: scr/Sequence.cpp.s
-
-.PHONY : scr/Sequence.s
-
-# target to generate assembly for a file
-scr/Sequence.cpp.s:
-	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Sequence.cpp.s
-.PHONY : scr/Sequence.cpp.s
-
 scr/main.obj: scr/main.cpp.obj
 
 .PHONY : scr/main.obj
@@ -245,9 +218,6 @@ help:
 	@echo ... scr/Packet.obj
 	@echo ... scr/Packet.i
 	@echo ... scr/Packet.s
-	@echo ... scr/Sequence.obj
-	@echo ... scr/Sequence.i
-	@echo ... scr/Sequence.s
 	@echo ... scr/main.obj
 	@echo ... scr/main.i
 	@echo ... scr/main.s

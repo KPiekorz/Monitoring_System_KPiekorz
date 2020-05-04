@@ -28,12 +28,9 @@ public:
         buffer.clear();
     }
 
-    Sequence(int ch, string u, double res, vector<T> buf): channelNr(ch), resolution(res){
-        unit.assign(u);
-        buffer.assign(buf);
-    }
 
 };
 
+#include "../scr/Sequence.tpp"
 
 #endif //MONITORING_SYSTEM_KPIEKORZ_SEQUENCE_H

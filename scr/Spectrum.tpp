@@ -6,7 +6,8 @@
 
 template <class T>
 string Spectrum<T>::toString() {
-    string parameter = "";
+
+    string parameter = "Spectrum:\n";
     parameter += "Channel number: "; parameter+= to_string(Sequence<T>::channelNr); parameter += "\n";
     parameter += "Unit: "; parameter += Sequence<T>::unit; parameter += "\n";
     parameter += "Resolution: "; parameter+= to_string(Sequence<T>::resolution); parameter += "\n";

@@ -8,7 +8,7 @@
 template <class T>
 string TimeHistory<T> :: toString() {
 
-    string parameter = "";
+    string parameter = "Time history:\n";
     parameter += "Channel number: "; parameter+= to_string(Sequence<T>::channelNr); parameter += "\n";
     parameter += "Unit: "; parameter += Sequence<T>::unit; parameter += "\n";
     parameter += "Resolution: "; parameter+= to_string(Sequence<T>::resolution); parameter += "\n";

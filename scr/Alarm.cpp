@@ -7,7 +7,9 @@
 
 string Alarm :: toString(){
 
-    string parameters_values = "Device name: ";
+    string parameters_values = "Alarm:\n";
+
+    parameters_values += "Device name: ";
     parameters_values += device; parameters_values += "\n";
 
     parameters_values += "Description: ";
