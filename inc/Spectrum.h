@@ -8,15 +8,15 @@
 #include "Sequence.h"
 
 enum Scaling_type{
-    lin,
-    log
+    linear,
+    logritm
 };
 
 template <class T>
 class Spectrum : protected Sequence<T> {
 
 private:
-    int scaling;
+    Scaling_type scaling;
 
 
 protected:
@@ -24,7 +24,15 @@ protected:
 
 
 public:
-    Spectrum() : scaling(0) {}
+    Spectrum() : scaling(linear), Sequence<T>::channelNr(0), Sequence<T>::unit("empty"), Sequence<T>::resolution(0) {}
+    Spectrum(Scaling_type s, int ch, string u, double res) : scaling(s) {
+        Sequence<T>::channelNr = ch;
+        Sequence<T>::unit = u;
+        Sequence<T>::resolution = res;
+        Sequence<T>::buffer.clear();
+    }
+
+
 
     string toString();
 
@@ -33,8 +41,12 @@ public:
 
 };
 
-
-
 #include "../scr/Spectrum.tpp"
 
+//template <typename TE>
+//void
+
+
 #endif //MONITORING_SYSTEM_KPIEKORZ_SPECTRUM_H
+
+

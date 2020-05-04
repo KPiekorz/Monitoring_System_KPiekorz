@@ -7,14 +7,20 @@ using namespace std;
 
 int main() {
 
-    TimeHistory <int> time;
+    TimeHistory <double> time(0.01, 1, "Volt", 0.01);
+
+    gauss_generator(3., 0.3, time);
+
     cout << time.toString() << endl;
 
-    Spectrum <int> spec;
-    cout << spec.toString() << endl;
+    cout << calculate_RMS(time) << endl;
 
-    Alarm ala;
-    cout << ala.toString() << endl;
+
+//    Spectrum <double> spec(linear, 2, "Volt", 0.001);
+//    cout << spec.toString() << endl;
+//
+//    Alarm ala;
+//    cout << ala.toString() << endl;
 
     return 0;
 }

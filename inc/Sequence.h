@@ -33,4 +33,5 @@ public:
 
 #include "../scr/Sequence.tpp"
 
+
 #endif //MONITORING_SYSTEM_KPIEKORZ_SEQUENCE_H

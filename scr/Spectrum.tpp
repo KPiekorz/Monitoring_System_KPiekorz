@@ -18,10 +18,10 @@ string Spectrum<T>::toString() {
         parameter += "buffer empty!!!\n";
     }else{
         for(int i = 0; i < Sequence<T>::buffer.size(); i++){
-            parameter+= to_string(Sequence<T>::buffer[i]); parameter += "\n";
+            parameter+= to_string(Sequence<T>::buffer[i]); parameter += "  ";
         }
+        parameter += "\n\n";
     }
-
 
     return parameter;
 }
