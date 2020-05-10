@@ -6,10 +6,16 @@
 #define MONITORING_SYSTEM_KPIEKORZ_SPECTRUM_H
 
 #include "Sequence.h"
+#include "TimeHistory.h"
 
 enum Scaling_type{
     linear,
     logritm
+};
+
+enum FFT_type{
+    Complex,
+    Ampitude
 };
 
 template <class T>
@@ -36,16 +42,15 @@ public:
 
     string toString();
 
+    // zapis do pliku
+    void operator <<(string filename);
 
-
+    //widmo amplitudowe lub zespolone z time history
+    void FFT(TimeHistory<T> time_hist, FFT_type fft_t);
 
 };
 
 #include "../scr/Spectrum.tpp"
-
-//template <typename TE>
-//void
-
 
 #endif //MONITORING_SYSTEM_KPIEKORZ_SPECTRUM_H
 

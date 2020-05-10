@@ -25,6 +25,12 @@ private:
     template <typename TE>
     friend TE calculate_RMS(TimeHistory<TE> & time_run);
 
+    // dodanie dwoch przebiegow czasowych
+    template <typename TE> friend TimeHistory<TE> operator +(const TimeHistory<TE> &a, const TimeHistory<TE> &b);
+
+    // dzielnie dwoch przebiegow czasowych
+    template <typename TE> friend TimeHistory<TE> operator /(const TimeHistory<TE> &a, const TimeHistory<TE> &b);
+
 
 protected:
 
@@ -40,6 +46,9 @@ public:
 
     string toString();
 
+    // overloading operator
+    TimeHistory<T> operator = (const TimeHistory<T> &a);
+    void operator <<(string filename);
 
 
 };
@@ -73,9 +82,8 @@ TE calculate_RMS(TimeHistory<TE> & time_run){
         rms += (time_run.buffer.at(i)-ux)*(time_run.buffer.at(i)-ux);
     }
 
-    cout << rms << endl;
-
     rms = rms/(time_run.buffer.size()-1);
+
     rms = sqrt(rms);
 
     return rms;

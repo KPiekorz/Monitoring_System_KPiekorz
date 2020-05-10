@@ -25,3 +25,45 @@ string Spectrum<T>::toString() {
 
     return parameter;
 }
+
+// save to file
+template <class T>
+void Spectrum<T>::operator <<(string filename){
+
+
+    ofstream time_history_file; //(file_name, ios::out | ios::in);
+
+    time_history_file.open(filename);
+
+    try{
+
+        if (time_history_file.is_open()) {
+            cout << "File open" << endl;
+        } else {
+            throw "cant open file";
+        }
+
+    }catch(const char * msg){
+        cerr << msg << endl;
+    }
+
+    for(int i = 0; i < Sequence<T>::buffer.size(); i++){
+        time_history_file << Sequence<T>::buffer.at(i) << "\n";
+    }
+
+
+    time_history_file.close();
+
+}
+
+template <class T>
+void Spectrum<T>::FFT(TimeHistory<T> time_hist, FFT_type fft_t) {
+
+    if(fft_t == Complex){
+
+
+    }else if(fft_t == Ampitude){
+
+    }
+
+}
