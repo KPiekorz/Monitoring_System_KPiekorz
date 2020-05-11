@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/Alarm.cpp" "E:/CLion_Workspace/Monitoring_System_KPiekorz/cmake-build-debug/CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Alarm.cpp.obj"
   "E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/Packet.cpp" "E:/CLion_Workspace/Monitoring_System_KPiekorz/cmake-build-debug/CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Packet.cpp.obj"
+  "E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/fft.cpp" "E:/CLion_Workspace/Monitoring_System_KPiekorz/cmake-build-debug/CMakeFiles/Monitoring_System_KPiekorz.dir/scr/fft.cpp.obj"
   "E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/main.cpp" "E:/CLion_Workspace/Monitoring_System_KPiekorz/cmake-build-debug/CMakeFiles/Monitoring_System_KPiekorz.dir/scr/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

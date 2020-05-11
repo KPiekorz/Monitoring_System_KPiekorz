@@ -29,6 +29,8 @@ Sequence.h
 E:/CLion_Workspace/Monitoring_System_KPiekorz/inc/Sequence.h
 TimeHistory.h
 E:/CLion_Workspace/Monitoring_System_KPiekorz/inc/TimeHistory.h
+fft.h
+E:/CLion_Workspace/Monitoring_System_KPiekorz/inc/fft.h
 ../scr/Spectrum.tpp
 E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/Spectrum.tpp
 
@@ -45,6 +47,18 @@ cmath
 -
 ../scr/TimeHistory.tpp
 E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/TimeHistory.tpp
+
+E:/CLion_Workspace/Monitoring_System_KPiekorz/inc/fft.h
+cstdio
+-
+cstring
+-
+iostream
+-
+fstream
+-
+complex
+-
 
 E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/Sequence.tpp
 ../inc/Sequence.h

@@ -95,6 +95,9 @@
 		<Unit filename="E:/CLion_Workspace/Monitoring_System_KPiekorz/inc/TimeHistory.h">
 			<Option target="Monitoring_System_KPiekorz"/>
 		</Unit>
+		<Unit filename="E:/CLion_Workspace/Monitoring_System_KPiekorz/inc/fft.h">
+			<Option target="Monitoring_System_KPiekorz"/>
+		</Unit>
 		<Unit filename="E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/Alarm.cpp">
 			<Option target="Monitoring_System_KPiekorz"/>
 		</Unit>
@@ -108,6 +111,9 @@
 			<Option target="Monitoring_System_KPiekorz"/>
 		</Unit>
 		<Unit filename="E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/TimeHistory.tpp">
+			<Option target="Monitoring_System_KPiekorz"/>
+		</Unit>
+		<Unit filename="E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/fft.cpp">
 			<Option target="Monitoring_System_KPiekorz"/>
 		</Unit>
 		<Unit filename="E:/CLion_Workspace/Monitoring_System_KPiekorz/scr/main.cpp">

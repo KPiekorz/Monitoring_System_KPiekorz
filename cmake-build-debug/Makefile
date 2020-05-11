@@ -176,6 +176,33 @@ scr/Packet.cpp.s:
 	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Packet.cpp.s
 .PHONY : scr/Packet.cpp.s
 
+scr/fft.obj: scr/fft.cpp.obj
+
+.PHONY : scr/fft.obj
+
+# target to build an object file
+scr/fft.cpp.obj:
+	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/fft.cpp.obj
+.PHONY : scr/fft.cpp.obj
+
+scr/fft.i: scr/fft.cpp.i
+
+.PHONY : scr/fft.i
+
+# target to preprocess a source file
+scr/fft.cpp.i:
+	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/fft.cpp.i
+.PHONY : scr/fft.cpp.i
+
+scr/fft.s: scr/fft.cpp.s
+
+.PHONY : scr/fft.s
+
+# target to generate assembly for a file
+scr/fft.cpp.s:
+	$(MAKE) -f CMakeFiles\Monitoring_System_KPiekorz.dir\build.make CMakeFiles/Monitoring_System_KPiekorz.dir/scr/fft.cpp.s
+.PHONY : scr/fft.cpp.s
+
 scr/main.obj: scr/main.cpp.obj
 
 .PHONY : scr/main.obj
@@ -218,6 +245,9 @@ help:
 	@echo ... scr/Packet.obj
 	@echo ... scr/Packet.i
 	@echo ... scr/Packet.s
+	@echo ... scr/fft.obj
+	@echo ... scr/fft.i
+	@echo ... scr/fft.s
 	@echo ... scr/main.obj
 	@echo ... scr/main.i
 	@echo ... scr/main.s

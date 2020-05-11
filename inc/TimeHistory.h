@@ -20,7 +20,7 @@ private:
     double sensitivity;
 
     template <typename TE>
-    friend void gauss_generator(TE mean, TE stddev, TimeHistory<TE> & time_run);
+    friend void gauss_generator(TE mean, TE stddev, TimeHistory<TE> & time_run, int gauss_length);
 
     template <typename TE>
     friend TE calculate_RMS(TimeHistory<TE> & time_run);
@@ -45,6 +45,12 @@ public:
     }
 
     string toString();
+    T get_buffer_value(int i){
+        return Sequence<T>::buffer.at(i);
+    }
+    int get_buffer_length(){
+        return Sequence<T>::buffer.size();
+    }
 
     // overloading operator
     TimeHistory<T> operator = (const TimeHistory<T> &a);
@@ -56,12 +62,12 @@ public:
 #include "../scr/TimeHistory.tpp"
 
 template <typename TE>
-void gauss_generator(TE mean, TE stddev, TimeHistory<TE> & time_run){
+void gauss_generator(TE mean, TE stddev, TimeHistory<TE> & time_run, int gauss_length){
 
     default_random_engine generator;
     normal_distribution<TE> dist(mean, stddev);
 
-    for(int i = 0; i < 4000; i++){
+    for(int i = 0; i < gauss_length; i++){
         time_run.buffer.push_back(dist(generator));
     }
 

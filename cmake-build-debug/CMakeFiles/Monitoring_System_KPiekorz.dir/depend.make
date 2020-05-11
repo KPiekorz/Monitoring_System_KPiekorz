@@ -8,11 +8,15 @@ CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Alarm.cpp.obj: ../scr/Alarm.cpp
 CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Packet.cpp.obj: ../inc/Packet.h
 CMakeFiles/Monitoring_System_KPiekorz.dir/scr/Packet.cpp.obj: ../scr/Packet.cpp
 
+CMakeFiles/Monitoring_System_KPiekorz.dir/scr/fft.cpp.obj: ../inc/fft.h
+CMakeFiles/Monitoring_System_KPiekorz.dir/scr/fft.cpp.obj: ../scr/fft.cpp
+
 CMakeFiles/Monitoring_System_KPiekorz.dir/scr/main.cpp.obj: ../inc/Alarm.h
 CMakeFiles/Monitoring_System_KPiekorz.dir/scr/main.cpp.obj: ../inc/Packet.h
 CMakeFiles/Monitoring_System_KPiekorz.dir/scr/main.cpp.obj: ../inc/Sequence.h
 CMakeFiles/Monitoring_System_KPiekorz.dir/scr/main.cpp.obj: ../inc/Spectrum.h
 CMakeFiles/Monitoring_System_KPiekorz.dir/scr/main.cpp.obj: ../inc/TimeHistory.h
+CMakeFiles/Monitoring_System_KPiekorz.dir/scr/main.cpp.obj: ../inc/fft.h
 CMakeFiles/Monitoring_System_KPiekorz.dir/scr/main.cpp.obj: ../scr/Sequence.tpp
 CMakeFiles/Monitoring_System_KPiekorz.dir/scr/main.cpp.obj: ../scr/Spectrum.tpp
 CMakeFiles/Monitoring_System_KPiekorz.dir/scr/main.cpp.obj: ../scr/TimeHistory.tpp
