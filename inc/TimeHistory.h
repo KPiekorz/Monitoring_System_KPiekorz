@@ -70,23 +70,21 @@ void gauss_generator(TE mean, TE stddev, TimeHistory<TE> & time_run){
 template <typename TE>
 TE calculate_RMS(TimeHistory<TE> & time_run){
 
-    TE rms;
+    TE square = 0;
+    TE mean = 0.0, root = 0.0;
 
-    TE ux = 0;
-    for(int i=0; i < time_run.buffer.size(); i++){
-        ux += time_run.buffer.at(i);
-    }
-    ux = ux/time_run.buffer.size();
-
-    for(int i=0; i < time_run.buffer.size(); i++){
-        rms += (time_run.buffer.at(i)-ux)*(time_run.buffer.at(i)-ux);
+    // Calculate square.
+    for (int i = 0; i < time_run.buffer.size(); i++) {
+        square += pow(time_run.buffer.at(i), 2);
     }
 
-    rms = rms/(time_run.buffer.size()-1);
+    // Calculate Mean.
+    mean = (square / (float)(time_run.buffer.size()));
 
-    rms = sqrt(rms);
+    // Calculate Root.
+    root = sqrt(mean);
 
-    return rms;
+    return root;
 }
 
 #endif //MONITORING_SYSTEM_KPIEKORZ_TIMEHISTORY_H
