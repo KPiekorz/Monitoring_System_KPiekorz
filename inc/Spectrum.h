@@ -26,7 +26,7 @@ private:
     Scaling_type scaling;
 
     template <typename TE>
-    friend void calculate_FFT(TimeHistory<TE> & time_run, Spectrum<TE> & spec_run, FFT_type t);
+    friend void calculate_FFT(TimeHistory<TE> & time_run, Spectrum<TE> & spec_run);
 
 protected:
 
@@ -59,7 +59,7 @@ public:
 
 // function to calculate widmo amplitudowe i zespolone of given signal
 template <typename TE>
-void calculate_FFT(TimeHistory<TE> & time_run, Spectrum<TE> & spec_run,FFT_type t){
+void calculate_FFT(TimeHistory<TE> & time_run, Spectrum<TE> & spec_run){
 
     TE amplitude = 0;
     int samples = time_run.get_buffer_length();
